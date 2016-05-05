@@ -1,0 +1,5 @@
+app/app.component.js
+*.map
+app/main.js
+app/model/skill.js
+*.js
