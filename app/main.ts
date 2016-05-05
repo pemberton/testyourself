@@ -1,4 +1,4 @@
 import { bootstrap }    from '@angular/platform-browser-dynamic';
-import { AppComponent } from './app.component';
+import { CloudComponent } from './technocloud/cloud.component';
 
-bootstrap(AppComponent);
+bootstrap(CloudComponent);

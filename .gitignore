@@ -3,3 +3,5 @@ app/app.component.js
 app/main.js
 app/model/skill.js
 *.js
+node_modules/
+typings/

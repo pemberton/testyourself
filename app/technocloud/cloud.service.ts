@@ -10,6 +10,6 @@ export class CloudService {
     }
     
     getSkills(skillTypeId: number){
-        return Promise.resolve(Skills);
+        return Skills;
     }
 }

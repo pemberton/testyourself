@@ -19,10 +19,9 @@ export class CloudComponent implements OnInit  {
     }
     
     ngOnInit() {
-        /*this.selectedSkilType = new SkillType();
+        this.selectedSkilType = new SkillType();
         
-        this.cloudService.getSkills(this.selectedSkilType.id)
-            .then(skills => this.skills == skills);*/
+        this.skills = this.cloudService.getSkills(this.selectedSkilType.id);
   }
   
   selectLevel(skill: Skill){
