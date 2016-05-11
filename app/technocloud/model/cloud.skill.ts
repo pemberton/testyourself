@@ -1,4 +1,4 @@
-export class SkillType {
+export class CloudSkill {
     id: number;
     name: string;
 }
