@@ -2,6 +2,6 @@
 <ul>
     <li *ngFor="let skill of skills">
       <span>{{skill.id}}</span> {{skill.name}}
-      <button (click)="selectLevel()">My level</button>
+      <button (click)="selectLevel(skill)">My level</button>
   </li>
 </ul>

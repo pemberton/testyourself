@@ -1,0 +1,7 @@
+<h2>Skill than you need to confirm</h2>
+<ul>
+    <li *ngFor="let skill of user.unconfirmedSkills">
+      <span>{{skill.id}}</span> {{skill.name}}
+      <button (click)="startTest(skill)">Confirm I'm {{ skill.level }}</button>
+  </li>
+</ul>

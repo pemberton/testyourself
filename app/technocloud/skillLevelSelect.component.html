@@ -1,14 +1,17 @@
 <div class="container-fluid custom-modal-container">
     <div class="row custom-modal-header">
+        <div>
+            
+        </div>
         <div class="col-sm-12">
-            <h1>Select level of skill {{skill.name}}</h1>
+            <h1>Select level of skill {{ skill.name }}</h1>
         </div>
     </div>
     <div class="row" [ngClass]="{'myclass' : shouldUseMyClass}">
         <div class="col-xs-12">
             <div class="jumbotron">
-                <li *ngFor="let skillType of skill.skillTypes">
-                    {{ skillType.Name }}
+                <li *ngFor="let skillType of skill.levels">
+                    <button (click)="setLevel()">{{ skillType }}</button>
                 </li>
             </div>
         </div>
